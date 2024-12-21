@@ -3,141 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f3f2ef;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .login-box {
-            background-color: white;
-            width: 100%;
-            max-width: 400px;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .login-box h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: #333333;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            font-size: 14px;
-            color: #333333;
-            margin-bottom: 8px;
-        }
-
-        .form-group input {
-            width: 100%;
-            padding: 10px;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        .form-group input:focus {
-            outline: none;
-            border-color: #0073b1;
-        }
-
-        .login-button {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            color: white;
-            background-color: #0073b1;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .login-button:hover {
-            background-color: #005983;
-        }
-
-        .footer {
-            margin-top: 20px;
-            font-size: 14px;
-            text-align: center;
-            color: #666666;
-        }
-
-        .footer a {
-            color: #0073b1;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-
-        .additional-section {
-            margin-top: 30px;
-        }
-
-        .additional-section p {
-            font-size: 14px;
-            color: #666666;
-            text-align: center;
-        }
-
-        .additional-section a {
-            color: #0073b1;
-            text-decoration: none;
-        }
-
-        .additional-section a:hover {
-            text-decoration: underline;
-        }
-        img{
-            height: 100px;
-            width: 200px;
-            margin-left: 30px;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img src="LinkedIn-Logo.wine (1).svg" alt="">
-    <div class="container">
-        <div class="login-box">
-            <h1>Sign in</h1>
-            <form>
-                <div class="form-group">
-                    <label for="email">Email or Phone</label>
-                    <input type="text" id="email" name="email" placeholder="Enter your email or phone">
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter your password">
-                </div>
-                <button type="submit" class="login-button">Sign in</button>
-            </form>
-            <div class="additional-section">
-                <p><a href="#">Forgot password?</a></p>
-                <p>New to LinkedIn? <a href="#">Join now</a></p>
-            </div>
-            <div class="footer">
-                <p>© 2024 LinkedIn Corporation</p>
-            </div>
-        </div>
-    </div>
+    <section>
+        <h1>Sign in</h1>
+        <p class="disc">Stay updated on your professional world.</p>
+        <form class="form" action="php">
+            <input class="login" type="email/tel" name="email/tel" placeholder="Email or Tel">
+            <input class="login" type="password" name="password" placeholder="password">
+        </form>
+        <a class="forgot" href="#">Forgot password</a>
+        <form  action="">
+            <input class="checkbox" type="checkbox">
+        </form>
+        <p>Keep me logged in</p>
+        <form action="">
+            <button>Sign in</button>
+        </form>
+    </section>
 </body>
 </html>

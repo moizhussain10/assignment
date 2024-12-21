@@ -1,92 +1,78 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f3f2ef;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.login-box {
-    background-color: white;
-    width: 100%;
-    max-width: 400px;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.login-box h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333333;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 14px;
-    color: #333333;
-    margin-bottom: 8px;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.form-group input:focus {
-    outline: none;
-    border-color: #0073b1;
-}
-
-.login-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: white;
-    background-color: #0073b1;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.login-button:hover {
-    background-color: #005983;
-}
-
-.footer {
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: center;
-    color: #666666;
-}
-
-.footer a {
-    color: #0073b1;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
 img{
-    height: 100px;
+    height: 200px;
     width: 200px;
+    position: relative;
+    bottom: 60px;
+    margin-left: 70px;
+}
+h1{
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: light;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
 }
 section{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 100px;
+}
+.disc{
+    color: #000000;
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+    font-family: sans-serif;
+}
+input{
+    border: 1px solid black;
+    padding: 15px;
+    width: 250px;
+    position: relative;
+    border-radius: 10px;
+    top: 8px;
+    margin: 13px;
+    font-size: 15px;
+}
+.form{
+    text-align: center;
+}
+.forgot{
+    color: rgb(63, 63, 238);
+    text-decoration: none;
+    margin-left: 60px;
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+.checkbox{
+    position: relative;
+    right: 70px;
+}
+p{
+    margin-left: 80px;
+    position: relative;
+    bottom: 35px;
+    font-family: sans-serif;
+}
+button{
+    border: 0px solid black;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 28px;
+    width: 350px;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 50px;
 }
